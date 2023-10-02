@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    background-color: #FFF;
+    position: fixed;
+    height: 2rem;
+    align-items: center;
+    width: 100%;
+    padding-left: 1rem;
+    box-shadow: 0px 2px 10px #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF0000;
+}
+
+section {
+    min-height: 100vh;
+    padding-top: 2.5rem;
+    padding-left: 1.5rem;
+}
+
+#start {
+    background: url(imgs/img1.jpg);
+}
+
+#services {
+    background: url(imgs/img2.jpg);
+}
+
+#contacts {
+    background: url(imgs/img3.jpg);
+}
+
+#curiosities {
+    background: url(imgs/img4.jpg);
+}
+
+#about {
+    background: url(imgs/img5.jpg);
+}
